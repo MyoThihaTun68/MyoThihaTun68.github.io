@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: #00B5DE;
+            }
+
+            h1 {
+                margin-bottom: 500px;
+                text-align: center;
+            }
+            .allcard {
+                display: flex;
+               
+            }
+            p {
+                background-color: blueviolet;
+                margin: auto;
+               
+            }
+            .card {
+                transition: 1s;
+                opacity: 0.0;
+                padding: 0%;
+                width: 150px;
+                height: 150px;
+                font-size: 10px;
+            }
+            .textAni {
+                font-size: 15px;
+                opacity: 1;
+                padding: 20px;
+                width: 200px;
+                height: 200px;
+                background-color: #6600c5;
+                color:#009EFF;
+                border-radius: 10px;
+                box-shadow:0px 0px 15px black;
+
+            }
+            span {
+                margin-bottom: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello scroll Test</h1>
+        <button onclick=" here">here</button>
+
+        <div class="allcard">
+            <p class="card">hello Im Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Provident ipsam consequuntur non dolor obcaecati officia aliquam, quae
+                nemo sit ut labore sunt velit quis iure nobis facilis aliquid iste fugit.
+            </p>
+            <p class="card">hello Im Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Provident ipsam consequuntur non dolor obcaecati officia aliquam, quae
+                nemo sit ut labore sunt velit quis iure nobis facilis aliquid iste fugit.
+            </p>
+            <p class="card">hello Im Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Provident ipsam consequuntur non dolor obcaecati officia
+                aliquam, quae nemo sit ut labore sunt velit quis iure nobis facilis aliquid iste
+                fugit.
+            </p>
+            <br><br><br><br>
+        </div>
+        <span>END</span> 
+
+        <script>
+            let textbox = document.querySelectorAll('.card')
+            window.addEventListener('scroll', textanima );
+            function textanima(){
+                const windowtiming = window.innerHeight / 5 * 4 ;
+                textbox.forEach (textbox => {
+                    const userR =textbox.getBoundingClientRect().top
+                    if(userR < windowtiming ){
+                        textbox.classList.add('textAni');
+                    }else {
+                        textbox.classList.remove('textAni')
+                    }
+                   
+                })
+                
+            }
+           
+        </script>
+    </body>
+</html>
