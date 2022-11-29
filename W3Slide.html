@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Verdana, sans-serif;
+                margin: 0;
+            }
+            nav {
+                background-color: #717171;
+                opacity: 0.7;
+                margin: auto;
+                width: 100%;
+                z-index: 99;
+                text-align: center;
+                font-size: 30px;
+                padding: 20px;
+                position: fixed;
+            }
+            .mySlides {
+                border-radius: 15px ;
+
+            }
+            img {
+                vertical-align: middle;
+
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+            }
+
+            /* Next & previous buttons */
+            .next,
+            .prev {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .next:hover,
+            .prev:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+            /* Caption text */
+            .text {
+                background-color: #717171;
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+            img {
+                width: 80%;
+                height: 80vh;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+            .active,
+            .dot:hover {
+                background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+
+            @keyframes fade {
+                from {
+                    opacity: 0.4;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 600px) {
+                .next,
+                .prev,
+                .text > h5,
+                p {
+                    font-size: 11px;
+                }
+                
+                .text {
+                    position: static;
+                }
+                .mySlides {
+                    width: 90%;
+                    margin: auto;
+                    
+                }
+                img {
+                    width: 80%;
+                    height: 300px;
+                }
+             
+            }
+        </style>
+    </head>
+    <body>
+        <nav>HOME</nav><br>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://rb.gy/l5yjnl" style="width:100%">
+                <div class="text">
+                    <h5>Demon Slayer: Mt. Natagumo Arc</h5>
+                    <p>Tanjiro, Zenitsu, and Inosuke go on their first mission together and venture
+                        to Mount Natagumo. Too afraid to go up the "spooky mountain" with Tanjiro and
+                        Inosuke, Zenitsu stays behind. Tanjiro and Inosuke encounter a mountain laced
+                        with spider webs and controlle...</p>
+                    <button class="btn-watch-link">
+                        <a href="">
+                            Watch Now</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://rb.gy/ylvyub" style="width:100%">
+                <div class="text">
+                    <h5>One Piece: The Movie 13 - Film: Gold</h5>
+                    <p>Monkey D. Luffy and his Straw Hat Crew have finally arrived on Gran Tesoro, a
+                        ship carrying the largest entertainment city in the world. Drawn in by the
+                        chances of hitting the jackpot, the crew immediately head to the casino. There,
+                        they quickly find themselve...</p>
+                    <button class="btn-watch-link">
+                        <a
+                            href="https://zoro.to/watch/one-piece-the-movie-13-film-gold-550?ep=58166 "
+                            target="_blank">
+                            Watch Now</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://rb.gy/ssu6ce" style="width:100%">
+                <div class="text">
+                    <h5>Josee, the Tiger and the Fish</h5>
+                    <p>A youth romantic drama with themes of growing up, the story focuses on
+                        college student Tsuneo and dreamer Josee, who lives her life stuck in a
+                        wheelchair. Josee—named after the heroine in Françoise Sagan's Wonderful
+                        Clouds—spends most of her days reading and pain...</p>
+                    <button class="btn-watch-link">
+                        <a href="">
+                            Watch Now</a>
+                    </button>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <p>Here</p><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i]
+                        .className
+                        .replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+    </body>
+</html>

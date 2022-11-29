@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .mb-100vh {
+        margin-bottom: 100vh;
+      }
+      .bg-red{
+        background-color: red;
+
+      }
+      .bg-blue{
+        background-color: blue;
+      }
+      .bg-yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+<body>
+
+Search: <input type="search" id="mySearch" >
+
+<button onclick="myFunction()">search</button>
+<ul class="section">All
+<li class=" section mb-100vh bg-red">One</li>
+<li class=" section mb-100vh bg-yellow">Two</li>
+<li class=" section mb-100vh bg-blue">Three</li>
+<li class=" section mb-100vh bg-red">Four</li>
+<li class=" section mb-100vh bg-yellow">Five</li>
+
+</ul>
+<script>
+function myFunction() {
+  let input = document.getElementById("mySearch").value;
+  let x = document.getElementsByClassName('section');
+  input = input.toLowerCase();
+  console.log(input);
+  for(let i = 0 ; i <= x.length ;i++){
+    if(!x[i].innerHTML.toLowerCase().includes(input)){
+      x[i].style.display = "none";
+    }
+    else if (x[i].innerHTML.toLowerCase().includes(input)){
+      x[i].style.display = "list-item";
+    }
+  }
+}
+</script>
+</body>
+</html>
