@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="icon" href="appleLogo.png" type="image/icon type" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="applecss.css">
+  </head>
+  <body>
+<!--For NavBar or Menu Bar -->
+    <div class="navContainer navBg">
+      <ul  class=" navBar display-flex justify-center">
+        <li><img src="appleLogo.png" alt="" width="25px" /></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">Mac</a></li>
+        <li><a href="">iPad</a></li>
+        <li><a href="">iPhone</a></li>
+        <li><a href="">Watch</a></li>
+        <li><a href="">AirPods</a></li>
+        <li><a href="">TV & Home</a></li>
+        <li><a href="">Entertainment</a></li>
+        <li><a href="">Accessories</a></li>
+        <li><a href="">Support</a></li>
+
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-bag"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+            />
+          </svg>
+        </li>
+        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a></li>
+      </ul>
+    </div>
+<!--for responsive Design Menu Bar --> 
+<div class="navContainer-menu navBg">
+  <div href="">
+    <img class="" src="appleLogo.png" alt="" width="25px" />
+  </div>
+  <div class=" navBar ">
+    
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        fill="currentColor"
+        class="bi margin-right-30px bi-search"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+        />
+      </svg>
+   
+    
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        fill="currentColor"
+        class="bi bi-bag margin-right-30px"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+        />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    
+  </div>
+</div>   
+    <div class="text-align-center margin-top-50">
+      <p>
+        Get $200–$630 in credit toward iPhone 14 or iPhone 14 Pro when you trade
+        in iPhone 11 or higher.<sup class="color-b">1</sup>
+        <a href="" class="color-b hover-a"> Shop iPhone </a
+        ><span class="color-b">&#62;</span>
+      </p>
+    </div>
+<!--For Apple logo Home View Page -->
+    <div class="heroSection margin-top-20 display-flex flex-column">
+      <video autoplay loop muted class="AppleVideo" width="280vh">
+        <source src="appleVideo.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-content display-flex margin-top-20">
+        <img src="appleLogo.png" alt="" width="70px" />
+        <h2 class="headerApple display-flex align-items-center">
+            WWDC23
+        </h2>
+      </div>
+      <div class="secondHeaderApple">Watch Online Monday at 10:00 a.m. PT.</div>
+      <div class="">
+        <a href="" class="thirdHeaderApple hover-a">Learn more
+        </a>
+        <span class="color-b">&#62;</span>
+      </div>
+    </div>
+
+<!--For i Phone 14 pro logo Home View Page -->
+<div class="heroSection-14pro heroSection A margin-top-20 display-flex flex-column">
+        <div class="hero-content display-flex margin-top-20">
+            
+            <h2 class="headerApple  align-items-center">
+                iPhone 14 Pro
+            </h2>
+          </div>
+          <div class="secondHeaderApple">
+            Pro.Beyond.
+        </div>
+          <div class="display-flex ">
+            <div class="margin-right-30px color-b">
+                <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+            </div>
+            <div class="margin-right-30px color-b">
+                <a href="" class="thirdHeaderApple hover-a ">Buy</a> &#62;
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--i phone 14 Wonderful section-->
+      <div class="heroSection-14 margin-top-20">
+        
+        <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+            <h2 class="headerApple  align-items-center">
+                iPhone 14
+            </h2>
+        
+        <div class="secondHeaderApple">
+            Wonderful
+        </div>
+        <div class="display-flex ">
+            <div class="margin-right-30px color-b">
+                <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+            </div>
+            <div class="margin-right-30px color-b">
+                <a href="" class="thirdHeaderApple hover-a ">Buy</a> &#62;
+            </div>
+        </div>  
+        
+     </div>
+    </div>
+
+<!-- unit images Section-->
+<div class="imagesSection margin-top-20 ">
+<!--apple image 1-->
+    <div class="appleimage1 appleimage0 ">
+        
+        <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+            <h2 class="headerApple  align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                  </svg>
+                Trade In
+            </h2>
+        
+        <div class="secondHeaderApple">
+            Upgrade and save.It's that easy.
+        </div>
+        <div class="display-flex ">
+            <div class="margin-right-30px color-b">
+                <a href="" class="thirdHeaderApple hover-a ">See what your device is worth</a> &#62;
+            </div>
+            
+        </div>  
+        
+     </div>
+    </div>
+
+<!--apple image 2-->
+<div class=" appleimage1 appleimage2">
+        
+    <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+        
+        <h2 class="headerApple  align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+              </svg>
+            Watch
+        </h2>
+    
+    <div class="secondHeaderApple">
+        Pride in the air.
+    </div>
+    <div class="display-flex ">
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">
+                Stop the new Pride Edition Sport Brand</a> &#62;
+        </div>
+        
+    </div>  
+    
+ </div>
+</div>
+
+<!--apple image 3-->
+<div class="appleimage1 appleimage3">
+        
+    <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+        <h2 class="headerApple  align-items-center color-white">
+            iPad Pro
+        </h2>
+    
+    <div class="secondHeaderApple color-white">
+        Supercharged by
+    </div>
+    <div class="display-flex ">
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+        </div>
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Buy</a> &#62;
+        </div>
+    </div>  
+    
+ </div>
+</div>
+
+<!--apple image 4-->
+<div class="appleimage1 appleimage4">
+        
+    <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+        <h2 class="headerApple  align-items-center color-white">
+            MacBook Pro
+        </h2>
+    
+    <div class="secondHeaderApple color-white">
+        Supecharged by M2 Pro and M2 Max.
+    </div>
+    <div class="display-flex ">
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+        </div>
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Buy</a> &#62;
+        </div>
+    </div>  
+    
+ </div>
+</div>
+
+<!--apple image 5-->
+<div class="appleimage1 appleimage5">
+        
+    <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+        <h2 class="headerApple  align-items-center color-white">
+            HomePod
+        </h2>
+    
+    <div class="secondHeaderApple color-white">
+        Profound sound.
+    </div>
+    <div class="display-flex ">
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+        </div>
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Buy</a> &#62;
+        </div>
+    </div>  
+    
+ </div>
+</div>
+
+<!--apple image 6-->
+<div class="appleimage1 appleimage6">
+        
+    <div class="hero-content display-flex flex-column justify-content-center align-items-center">
+        <h2 class="headerApple  align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+              </svg>
+            Card
+        </h2>
+    
+    <div class="secondHeaderApple ">
+        Get up to 3% Daily Cash back  with every purchase.
+    </div>
+    <div class="display-flex ">
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Learn more</a> &#62;
+        </div>
+        <div class="margin-right-30px color-b">
+            <a href="" class="thirdHeaderApple hover-a ">Apply Now</a> &#62;
+        </div>
+    </div>  
+    
+ </div>
+</div>
+
+</div>
+
+<!--Silder section -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide margin-top-20">
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2 " ></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="AppleSilder1.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-flex flex-column d-md-block">
+        <h5 class="font-size-10rem text-white fw-bolder ">platonic</h5>
+        <div class="d-flex justify-content-between  flex-column flex-lg-row align-items-center">
+          <div class="btn height-40px text-black bg-white rounded-5 border fw-bold">
+            Stream Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="text-black bi bi-caret-right-fill" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+          </div>
+          <p class="color-white">Some representative placeholder content for the first slide.</p>
+
+          <div class="text-white fw-bolder fs-6 d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-apple text-white" viewBox="0 0 16 16">
+              <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+              <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+            </svg>
+            <h1>tv+</h1>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="AppleSilder2.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="AppleSilder3.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="AppleSlider4.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="AppleSlider5.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="AppleSlider6.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Footer Section-->
+
+<div class="footer mt-5 p-2 ">
+  
+
+  <div class="p-2 w-100 container footer-content d-flex justify-content-center">
+  
+
+    1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years
+    old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. 
+    Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new
+    device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may
+    vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any
+    trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may 
+    apply.
+
+    To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version
+    by going to Settings > General > Software Update. Tap Download and Install.
+
+    Available for qualifying applicants in the United States.
+
+    Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+
+    Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+
+    A subscription is required for Apple TV+.
+
+    Major League Baseball trademarks and copyrights are used with permission of MLB Advanced Media, L.P. All rights reserved.
+
+    
+  </div>
+  
+  <div class="F-Section d-lg-flex   container d-block justify-content-around w-lg-75 border-top ">
+    <div class="footerS1">
+    <ul class="mt-3">
+      <li class="fw-bold">Shop and Learn</li> 
+      <li><a class="text-dark hover-a "  href="">Store</a></li>
+      <li><a class="text-dark hover-a "  href="">Mac</a></li>
+      <li><a class="text-dark hover-a "  href="">iPad</a></li>
+      <li><a class="text-dark hover-a "  href="">iPhone</a></li>
+      <li><a class="text-dark hover-a "  href="">Watch</a></li>
+      <li><a class="text-dark hover-a "  href="">AirPods</a></li>
+      <li><a class="text-dark hover-a "  href="">TV & Home</a></li>
+      <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+      <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+      <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+    </ul>
+    <ul class="mt-3">
+      <li class="fw-bold">Apple Wallet</li> 
+      <li><a class="text-dark hover-a "  href="">Wallet</a></li>
+      <li><a class="text-dark hover-a "  href="">Apple Card</a></li>
+      <li><a class="text-dark hover-a "  href="">Apple Pay</a></li>
+      <li><a class="text-dark hover-a "  href="">Apple Cash</a></li>
+    </ul>
+    </div>
+    <div class="footerS2">
+      <ul class="mt-3">
+        <li class="fw-bold">Account</li> 
+        <li><a class="text-dark hover-a "  href="">Wallet</a></li>
+        <li><a class="text-dark hover-a "  href="">Manage Your Apple ID</a></li>
+        <li><a class="text-dark hover-a "  href="">Apple Store Account</a></li>
+        <li><a class="text-dark hover-a "  href="">iCloud.com</a></li>
+      </ul>
+      <ul class="mt-3">
+        <li class="fw-bold">Entertainment</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        <li><a class="text-dark hover-a "  href="">iPhone</a></li>
+        <li><a class="text-dark hover-a "  href="">Watch</a></li>
+        <li><a class="text-dark hover-a "  href="">AirPods</a></li>
+        <li><a class="text-dark hover-a "  href="">TV & Home</a></li>
+        <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+        <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+        <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div class="footerS3">
+      <ul class="mt-3">
+        <li class="fw-bold">Apple Store</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        <li><a class="text-dark hover-a "  href="">iPhone</a></li>
+        <li><a class="text-dark hover-a "  href="">Watch</a></li>
+        <li><a class="text-dark hover-a "  href="">AirPods</a></li>
+        <li><a class="text-dark hover-a "  href="">TV & Home</a></li>
+        <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+        <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+        <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div class="footerS4">
+      <ul class="mt-3">
+        <li class="fw-bold">For Business</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        
+      </ul>
+      <ul class="mt-3">
+        <li class="fw-bold">For Education</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        
+      </ul>
+      <ul class="mt-3">
+        <li class="fw-bold">For Healthcare</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        
+        
+      </ul>
+      <ul class="mt-3">
+        <li class="fw-bold">For Government</li> 
+        <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+        <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        
+      </ul>
+    </div>
+    <div class="footerS5">
+      <ul class="mt-3">
+        <li class="fw-bold">Apple Values</li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">iPad</a></li>
+        <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+        <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+        <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+        
+      </ul>
+      <ul class="mt-3">
+        <li class="fw-bold">About Apple </li> 
+        <li><a class="text-dark hover-a "  href="">Store</a></li>
+        <li><a class="text-dark hover-a "  href="">Mac</a></li>
+        <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+        <li><a class="text-dark hover-a "  href="">TV & Home</a></li>
+        <li><a class="text-dark hover-a "  href="">AirTag</a></li>
+        <li><a class="text-dark hover-a "  href="">Accessories</a></li>
+        <li><a class="text-dark hover-a "  href="">Gift Cards</a></li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class=" footer-section d-flex flex-column container w-75">
+   <div class="">
+    <p class="font-size-5px">More ways to shop: 
+      
+      <a href="" class="color-b ">
+        Find an Apple Store
+      </a>
+    
+     or 
+     <a href=""class="color-b">
+      other retailer
+     </a>
+      near you. Or call 1-800-MY-APPLE.
+    </p>
+   </div>
+
+   <div class="d-flex border-top pt-4 flex-lg-row flex-column">
+    <span class="crd">Copyright © 2023 Apple Inc. All rights reserved.</span>
+    <ul class="d-lg-flex font-size-5px d-block">
+      
+      <li><a href=""class="text-dark hover-a border-right">
+        Privacy Policy 
+      </a>
+      </li>
+      <li>
+          <a href=""class="text-dark hover-a border-right">Terms of Use </a>
+      </li>
+      <li>
+        <a href=""class="text-dark hover-a border-right">Sales and Refunds</a>
+      </li>
+      <li>
+        <a href=""class="text-dark hover-a border-right">Legal</a>
+      </li>
+      <li>
+        <a href=""class="text-dark hover-a border-right">  Site Map </a>
+      </li>
+      <li class="magin-left-100px text-align-center">
+        United States
+      </li>
+    </ul>
+   </div>
+  </div>
+  
+</div>
+
+  
+  
+</div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
