@@ -1,1 +1,7 @@
-# MyoThihaTun68.github.io
+# Myo Thiha Tun | IT Specialist & Frontend Developer
+
+Welcome to my profile! I am a software developer and IT specialist passionate about building web applications.
+
+## 🔗 Connect with me
+- **LinkedIn:** [Myo Thiha Tun on LinkedIn](https://www.linkedin.com/in/အစ်ကိုပြင်ထားတဲ့နာမည်အသစ်)
+- **Portfolio Website:** [edusmartid.online](https://edusmartid.online)
