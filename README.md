@@ -1,7 +1,19 @@
-# Myo Thiha Tun | IT Specialist & Frontend Developer
+# Myo Thiha Tun 🚀
+### IT Specialist | Full-Stack Software Developer | Ethical Hacker | IT Teacher
 
-Welcome to my profile! I am a software developer and IT specialist passionate about building web applications.
+Hi there! I am an experienced **IT Specialist and Developer** with a strong passion for web development, ethical hacking, and AI automation. I love building secure, scalable web applications and teaching the next generation of tech enthusiasts.
+
+---
+
+## 🛠️ Tech Stack & Skills
+* **Frontend & Full-Stack:** React, Next.js, TypeScript, JavaScript, HTML5, CSS3
+* **AI & Automation:** Agentic Workflows, Claude Code, n8n Automation
+* **Cybersecurity:** Ethical Hacking, IT Security & Systems Engineering
+* **Roles:** IT Officer, Developer, IT Instructor
+
+## 🌐 Project & Domains
+* Check out my official domain: [ https://myothihatun.online/ )
 
 ## 🔗 Connect with me
-- **LinkedIn:** [Myo Thiha Tun on LinkedIn]( https://www.linkedin.com/in/အစ်ကိုပြင်ထားတဲ့နာမည်အသစ်](https://www.linkedin.com/in/myo-thiha-tun-dev )
-- **Portfolio Website:** [https://myothihatun.online/)
+* **LinkedIn:** [Myo Thiha Tun on LinkedIn](https://www.linkedin.com/in/myo-thiha-tun-dev/)
+* **GitHub:** [MyoThihaTun68](https://github.com/MyoThihaTun68)
